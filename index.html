@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo</title>
+    <!-- link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="logic.js" defer></script>
+</head>
+
+<body>
+    <!-- User Story #1 -->
+    <header id="header">
+        <!-- navbar -->
+        <!-- User Story #3 -->
+        <nav class="navbars" id="nav-bar">
+            <div class="sub-nav">
+                <a href="#" target="_blank">
+                    <!-- User Story #2 -->
+                    <img id="header-img" src="images/akila.png" alt="logo">
+                </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- User Story #4 -->
+            <div class="nav-link" id="navId">
+                <ul class="links">
+                    <!-- User Story #5 -->
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#text">ABOUT</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#faq-section">FAQ</a></li>
+                    <li>
+                        <div class="toggle">
+                            <input type="checkbox" id="toggle" />
+                            <label for="toggle"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- video content -->
+        <section class="main-home">
+            <div class="main-text">
+                <h4>ESSENTIAL</h4>
+                <h1>EYEWEAR</h1>
+            </div>
+            <div class="video-wrapper">
+                <!-- User Story #6 -->
+                <video autoplay loop muted plays-inline class="back-video" id="video" width="640" height="360">
+                    <source src="images/apollo_video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </header>
+
+    <!-- About -->
+    <section id="text">
+        <h2>A MODERN EYEWEAR CONCEPT</h2>
+        <div class="about">
+            <p>AKILA is an independent eyewear brand from Los Angeles focused on handmade, limited-run eyewear.
+
+                We are environmentally-conscious and craft our eyewear from eco-friendly acetate, optical grade lenses &
+                biodegradable packaging. Style and sustainability can coexist.</p>
+        </div>
+        <a href="https://akila.la/" target="_blank">
+            <input type="submit" value="SHOP ALL SUNGLASSES" class="btn">
+        </a>
+    </section>
+
+    <!-- ads -->
+    <section class="split">
+        <div class="container-split">
+            <div class="left"></div>
+            <div class="right">
+                <h1>WEAR YOUR SHINE!</h1>
+                <h3>Don’t let your inner critic hold you back</h3>
+                <p>AKILA lenses are Optical Class 1 nylon lenses, making them thick, scratch-resistant, and 100% UVA/UVB
+                    resistant.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery">
+        <div class="gal-text">
+            <h2>We look good together.</h2>
+            <p>Keep carrying (and tagging) @akila.la</p>
+            <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                <input type="submit" value="FOLLOW US ON INSTAGRAM" class="btn">
+            </a>
+            <a href="https://akila.la/" target="_blank" class="gallery__link">
+                <input type="submit" value="SHOP ALL SUNGLASSES" class="btn">
+            </a>
+        </div>
+
+
+        <div class="gallery">
+            <div class="gallery__column">
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/9.png" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/2.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/11.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery__column">
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/10.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/1.png" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/8.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery__column">
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/4.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/6.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/12.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery__column">
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/7.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/5.jpeg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+
+                <a href="https://www.instagram.com/akila.la/" target="_blank" class="gallery__link">
+                    <figure>
+                        <img src="images/3.jpg" alt="" class="gallery__image">
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- faq -->
+    <section id="faq-section">
+        <div class="row">
+            <h2 class="section-heading">FAQs - Akila</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3>The style I want is sold out, when is a restock coming?</h3>
+                    <p>
+                        If the sold-out style you're looking for is a collab, it will sadly not be restocked. All our
+                        collabs are limited runs and will not be reproduced. If you're interested in a sold out style
+                        from our Essentials Collection, sign up for our e-mail list and hold tight! We are a small
+                        self-funded company and try our best to keep up with demand.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Where is AKILA based?</h3>
+                    <p>
+                        AKILA is based in the Flower District of Downtown Los Angeles. We have our own store called the
+                        Flower District Gift Shop in DTLA at 767 Santee Street where we carry AKILA along with a
+                        curation of other products and brands we admire for their modern sensibilites and sharp design.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Does AKILA have a store?</h3>
+                    <p>
+                        Yes, we have a flagship in NY at 138 Ludlow St in LES and a concept store in LA called the
+                        Flower District Gift Shop in DTLA at 767 Santee Street where we carry AKILA along with a
+                        curation of other products and brands we admire for their modern sensibilites and sharp design.
+                        Come by and say hello!
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>What materials are AKILA sunglasses made from?</h3>
+                    <p>
+                        AKILA eyewear is made from plant-based cellulose acetate, an eco-conscious alternative to
+                        cheaper plastics that allows for a wide range of unique colors and patterns. All frames are
+                        completed with sturdy barrel hinges and stainless steel temple cores for durability, then fitted
+                        with optical class 1 nylon lenses for near-perfect clarity and scratch-resistance.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Is the fit of AKILA sunglasses adjustable?</h3>
+                    <p>
+                        The cellulose acetate AKILA sunglasses are made from is a malleable material that can be gently
+                        modified and gradually shaped for your specific size and use. The arms of all AKILA frames have
+                        a metallic core that holds the acetate in place and can be adjusted easily to fit your face
+                        shape.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>How should I clean my AKILA eyewear?</h3>
+                    <p>
+                        All sunglasses should be frequently cleaned and maintained to preserve the original design and
+                        functionality. Your AKILA eyewear is best cleaned under running water, then dried with the soft
+                        cloth included in your purchase.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- newesletter -->
+    <section class="form-section">
+        <div class="newsletter_wrapper">
+            <h2>AKILA NEWSLETTER SIGNUP</h2>
+            <p>
+                SIGNUP TO RECEIVE THE LATEST ON AKILA NEWS, UPDATES AND MEMBER BENEFITS</p>
+            <!-- User Story #7 -->
+            <!-- User Story #12 -->
+            <form action="thankyou.html" id="form" method="post">
+                <!-- User Story #8 -->
+                <!-- User Story #9 -->
+                <!-- User Story #10 -->
+                <input type="email" placeholder="Email" required>
+                <!-- User Story #11 -->
+                <button id="button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer Element -->
+    <footer>
+        <p>© 2023, AKILA® EYEWEAR </p>
+    </footer>
+
+</body>
+
+</html>
